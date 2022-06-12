@@ -33,3 +33,6 @@ a:hover {
 a:active {
   color : #ddbfff; /*hyperlink가 작동(클릭)될때의 색상을 설정합니다*/
 }
+a{
+  text-decoration: none;
+}
