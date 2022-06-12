@@ -16,3 +16,15 @@ h3{
     text-align: center;
     color: #f0f8ff;
 {
+a:link {
+  color : pink;
+}
+a:visited {
+  color : black;
+}
+a:hover {
+  color : red;
+}
+a:active {
+  color : green;
+}
