@@ -1,34 +1,34 @@
 h1, h2, h3, h4, h5, h6, p {
-  font-family: 'Noto Sans KR' !important;
+  font-family: 'Noto Sans KR' !important; /*이 부분은 h1~p에 Noto Sans KR 폰트를 적용합니다*/
   }
 body {
-    background-color: #ff7f50;
+    background-color: #ff7f50; /*뒷 배경 색을 설정합니다*/
 }
 p{
-    text-align: center;
+    text-align: center; /*p에 대한 문자 정렬를 설정합니다*/
 }
 h1{
-    text-align: center;
-    color: #ddbfff;
-    background-color: #f0f8ff;
+    text-align: center; /*h1에 대한 문자 정렬을 설정합니다*/
+    color: #ddbfff; /*h1에 대한 문자 색상을 설정합니다*/
+    background-color: #f0f8ff; /*h1에 대한 문자 배경색을 설정합니다*/
 }
 h2{
-    text-align: center;
-    color: #f0f8ff;
+    text-align: center; /*h2에 대한 묹자 정렬을 설정합니다*/
+    color: #f0f8ff; /*h2에 대한 문자 색상을 설정합니다*/
 }
 h3{
-  text-align: center;
-  color: #f0f8ff;
+  text-align: center; /*h3에 대한 문자 정렬을 설정합니다*/
+  color: #f0f8ff; /*h3에 대한 문자 색상을 설정합니다*/
 }
 a:link {
-  color : pink;
+  color : pink; /*hyperlink의 링크 색상을 설정합니다*/
 }
 a:visited {
-  color : black;
+  color : black; /*방문된 hyperlink의 링크 색상을 설정합니다*/
 }
 a:hover {
-  color : rosybrown;
+  color : rosybrown; /*hovering 되고있는 hyperlink의 색상을 설정합니다*/ 
 }
 a:active {
-  color : #ddbfff;
+  color : #ddbfff; /*hyperlink가 작동(클릭)될때의 색상을 설정합니다*/
 }
