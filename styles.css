@@ -29,7 +29,7 @@ a:link {
   color : pink; /*hyperlink의 링크 색상을 설정합니다*/
 }
 a:visited {
-  color : black; /*방문된 hyperlink의 링크 색상을 설정합니다*/
+  color : pink; /*방문된 hyperlink의 링크 색상을 설정합니다*/
 }
 a:hover {
   color : rosybrown; /*hovering 되고있는 hyperlink의 색상을 설정합니다*/ 
