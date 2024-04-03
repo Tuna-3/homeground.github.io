@@ -6,7 +6,7 @@ body {
     /* background-color: #ff7f50; /*뒷 배경 색을 설정합니다*/
     /*background-image: url(testbackground.png); */
     background: rgb(255,255,255);
-    background: linear-gradient(330deg, rgba(255,255,255,1) 0%, rgba(255,191,225,1) 70%, rgba(221,191,255,1) 100%);
+    background: linear-gradient(330deg, rgba(120,163,235,1) 0%, rgba(251,194,235,1) 80%);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -23,8 +23,13 @@ h1{
     -webkit-backdrop-filter: blur(7.5px);
     border: 1px solid rgba(255, 255, 255, 0.25);
     text-align: center; /*h1에 대한 문자 정렬을 설정합니다*/
-    color: #ddbfff; /*h1에 대한 문자 색상을 설정합니다*/
-    background-color: #f0f8ff; /*h1에 대한 문자 배경색을 설정합니다*/
+    color: #000435; /*h1에 대한 문자 색상을 설정합니다*/
+	  background: rgba(255, 255, 255, 0.2);
+	  border-radius: 16px;
+	  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	  backdrop-filter: blur(5px);
+  	-webkit-backdrop-filter: blur(5px);
+  	border: 1px solid rgba(255, 255, 255, 0.3);
 }
 h2{
     text-align: center; /*h2에 대한 문자 정렬을 설정합니다*/
