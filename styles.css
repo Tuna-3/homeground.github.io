@@ -2,15 +2,32 @@ h1, h2, h3, h4, h5, h6, p {
   /* font-family: 'Noto Sans KR' !important; /*이 부분은 h1~p에 Noto Sans KR 폰트를 적용합니다*/
   font-family: 'Inconsolata', monospace;
   }
+.container{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(45deg, );
+}
 body {
     /* background-color: #ff7f50; /*뒷 배경 색을 설정합니다*/
     /*background-image: url(testbackground.png); */
     background: rgb(255,255,255);
-    background: linear-gradient(330deg, rgba(120,163,235,1) 0%, rgba(251,194,235,1) 80%);
+    background: linear-gradient(330deg, #7462ff, #78a3eb, #fbc2eb, #23d5ab);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;  
+    background-size: 300% 300%;  
+    animation: color 12 ease-in-out infinite;
+}
+@keyframes color{
+  0%{
+    background-color: 0 50%;
+  }
+  50%{
+    background-color: 100% 50%;
+  }
+  100%{
+    background-color: 0 50%;
+  }
 }
 p{
     text-align: center; /*p에 대한 문자 정렬를 설정합니다*/
