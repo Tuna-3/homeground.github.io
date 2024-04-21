@@ -8,25 +8,26 @@ h1, h2, h3, h4, h5, h6, p {
   background: linear-gradient(45deg, );
 }
 body {
-    /* background-color: #ff7f50; /*뒷 배경 색을 설정합니다*/
-    /*background-image: url(testbackground.png); */
-    background: linear-gradient(330deg, #7462ff, #78a3eb, #fbc2eb, #23d5ab);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 300% 300%;  
-    animation: color 12s ease-in-out infinite;
+  background: linear-gradient(330deg, #7462ff, #78a3eb, #fbc2eb, #23d5ab); /* Gradient definition */
+  background-position: center center; /* Gradient position */
+  background-repeat: no-repeat; /* Gradient repeat */
+  background-attachment: fixed; /* Gradient attachment */
+  background-size: 300% 300%; /* Gradient size */
+  animation: color 12s ease-in-out infinite; /* Animation */
 }
-@keyframes color{
-  0%{
-    background-color: 0 50%;
+
+@keyframes color {
+  0% {
+    background-color: 0 50%; /* Start color */
   }
-  50%{
-    background-color: 100% 50%;
+  50% {
+    background-color: 100% 50%; /* Midpoint color */
   }
-  100%{
-    background-color: 0 50%;
+  100% {
+    background-color: 0 50%; /* End color */
   }
+}
+
 }
 p{
     text-align: center; /*p에 대한 문자 정렬를 설정합니다*/
