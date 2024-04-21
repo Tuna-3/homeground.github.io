@@ -10,7 +10,6 @@ h1, h2, h3, h4, h5, h6, p {
 body {
     /* background-color: #ff7f50; /*뒷 배경 색을 설정합니다*/
     /*background-image: url(testbackground.png); */
-    background: rgb(255,255,255);
     background: linear-gradient(330deg, #7462ff, #78a3eb, #fbc2eb, #23d5ab);
     background-position: center center;
     background-repeat: no-repeat;
